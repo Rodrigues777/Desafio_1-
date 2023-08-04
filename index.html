@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio1</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+                          <!--Menu-Superior-->
+<div id="Menu-Superior">
+<h1 id="Titulo-Superior">Tradição em projetos de arquitetura</h1>
+<p1 id="Texto-Superior">Arquitetura residencial e comercial. </p1> 
+</div>
+                          <!--Menu-Informacional-->
+<div id="Menu-Informacional">
+  <h1 class="Titulo-Informacional">850<br><p2 class="Texto-Informacional">empreendimentos construídos</p2></h1>
+  <h2 class="Titulo-Informacional">40<br><p3 class="Texto-Informacional">anos de mercado e experiência </p3></h2>
+  <h3 class="Titulo-Informacional">2,000,000<br><p4 class="Texto-Informacional">m² em projetos construídos</p4></h3>
+</div>
+                          <!--Menu-Explicativo-->
+<div id="Menu-Explicativo">
+  <div>
+    <h1 class="Explicativo" id="Texto-Explicativo">Arquitetos com História e Experiência.</h1>
+    <p1 class="Explicativo" id="Texto-Explicativo-Complementar">Nós realizamos desde 2002 projetos e gerenciamento de obras.<br>Com mais de 800 projetos e 2.000.000 de m² construídos, tendo<br> como principal proposta transformar em realidade os sonhos de<br> seus clientes, criando projetos personalizados, unindo a tradição<br> e a modernidade em nossos projetos.</p1>
+  </div>
+                          <!--Carrossel-->
+  <img class="Seta" id="Seta-Esquerda" onclick="RolarParaEsquerda()" src="icones/Seta Esquerda.svg">
+  <img id="Casa" src="imagens/casa.svg">
+  <img id="Interior-Casa" src="imagens/interior-casa.svg">
+  <img class="Seta" id="Seta-Direita" onclick="RolarParaDireita()" src="icones/Seta Direita.svg">
+</div>
+                          <!--Formulário-->
+<div id="Formulario">
+  <h1 id="Texto-Formulario">Conheça mais sobre nossos serviços:</h1>
+  <form action="https://api.sheetmonkey.io/form/4EoMar8gbvhW5JLMLPMied" method="post">
+    <input type="text" placeholder="Nome" name="Name" required><br><br>
+    <input type="email" placeholder="Email" name="Email" required><br>
+    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+    <button type="submit">Fale Conosco</button>  
+  </form>
+  
+</div>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+*{
+font-family: inter;
+margin: 0px;
+}
+#Menu-Superior{
+padding-top: 100px;
+padding-bottom: 100px;
+background-color: #303030;
+}
+#Titulo-Superior{
+color: #FFFFFF;
+font-size: 60px;
+font-style: normal;
+margin: 0px 150px 10px 60px;
+}
+#Texto-Superior{
+color: #FFFFFF;
+font-size: 20px;
+font-style: normal;
+margin-left: 60px;
+}
+#Menu-Informacional{
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+margin: 50px 60px 0px 60px;
+padding-top: 50px;
+padding-bottom: 100px;
+}
+.Texto-Informacional{
+color: #000000;
+font-size: 20px;
+font-style: normal;
+font-weight: bolder;
+}
+.Titulo-Informacional{
+font-style: normal;
+font-size: 40px;
+margin-left: 60px;
+}
+#Menu-Explicativo{
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+color: #000000;
+background-color: #fff;
+margin-left: 50px;
+}
+.Explicativo{
+color: #000000;
+margin-top: 100px ;
+}
+#Texto-Explicativo{
+margin-bottom: 5%;
+font-size: 35px;
+background-color: #f9f9f9;
+}
+#Texto-Explicativo-Complementar{
+font-size: 20px;
+background-color: #f9f9f9;
+}
+#Interior-Casa{
+background-color: #f9f9f9;
+margin-left: 10px;
+border-radius: 30px;
+}
+#Casa{
+    display: none;
+}
+.Seta{
+    cursor: pointer;
+margin-top: 500%;
+}
+.Seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.2s;
+}
+#Seta-Esquerda{
+    display: none;
+}
+#Formulario{
+background-color: #303030;
+text-align: center;
+}
+#Texto-Formulario{
+padding-top: 50px;
+color: #FFF;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+margin: 25px;
+}
+input{
+width: 508px;
+height: 72px;
+color: rgba(0, 0, 0, 0.30);
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+flex-shrink: 0;
+background: #FFF;
+margin: 10px;
+border: 0px;
+border-radius: 10px;
+padding-left: 20px;
+}
+button{
+width: 286px;
+height: 74px;
+font-size: 30px;
+font-family: Raleway;
+flex-shrink: 0;
+border: 0px;
+border-radius: 10px;
+color: #FFFFFF;
+background-color: #C07212;
+margin-bottom: 50px;
+margin-top: 50px;
+font-weight: bolder;
+cursor: pointer;
+}
