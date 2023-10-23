@@ -1,4 +1,4 @@
-# Projeto Landpage Arquitetura - Resolução
+# Projeto Landing-page Arquitetura - Resolução
 
 Link do Site disponibilizado: https://rodriguesdncdesafio1.netlify.app/
 
